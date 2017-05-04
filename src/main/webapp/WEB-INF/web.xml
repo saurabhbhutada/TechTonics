@@ -1,0 +1,144 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Homepage</servlet-name>
+  	<display-name>Homepage</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.Homepage</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Home</servlet-name>
+  	<display-name>Home</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.Home</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>registrationServlet</servlet-name>
+  	<display-name>registrationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.registrationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FetchTechTalkServlet</servlet-name>
+  	<display-name>FetchTechTalkServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.FetchTechTalkServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Admin</servlet-name>
+  	<display-name>Admin</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.Admin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<display-name>logoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.logoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminFetchTechTalkServlet</servlet-name>
+  	<display-name>AdminFetchTechTalkServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.AdminFetchTechTalkServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddTechTalkServlet</servlet-name>
+  	<display-name>AddTechTalkServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.AddTechTalkServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterEmployeeServlet</servlet-name>
+  	<display-name>RegisterEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.RegisterEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FetchRegesterEmployee</servlet-name>
+  	<display-name>FetchRegesterEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.atmecs.servlets.FetchRegesterEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Homepage</servlet-name>
+  	<url-pattern>/Homepage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Home</servlet-name>
+  	<url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registrationServlet</servlet-name>
+  	<url-pattern>/registrationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FetchTechTalkServlet</servlet-name>
+  	<url-pattern>/FetchTechTalkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Admin</servlet-name>
+  	<url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminFetchTechTalkServlet</servlet-name>
+  	<url-pattern>/AdminFetchTechTalkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddTechTalkServlet</servlet-name>
+  	<url-pattern>/AddTechTalkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterEmployeeServlet</servlet-name>
+  	<url-pattern>/RegisterEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FetchRegesterEmployee</servlet-name>
+  	<url-pattern>/FetchRegesterEmployee</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+</web-app>
